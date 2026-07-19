@@ -1,3 +1,3 @@
-# voidbr-pkgfile
+# voidbr-mangowm-config
 
-Template for VoidBR pkgmake/pkgfile packages
+Skel config for VoidBR MANGOWM Meta Package
