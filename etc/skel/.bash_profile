@@ -7,7 +7,7 @@
 # Inicia o Mango automaticamente no TTY1
 if [ -z "$WAYLAND_DISPLAY" ] &&
   [ "${XDG_VTNR:-0}" -eq 1 ]; then
-  # Auto-launch Manogowm TTY1 login
+  # Auto-launch Mango TTY1 login
   if [ "$(tty)" = "/dev/tty1" ]; then
     echo
     read -rp "Start Mango? [Y/n]: " REPLY
